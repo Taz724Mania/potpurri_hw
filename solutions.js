@@ -56,3 +56,5 @@ for (const thing in bankInfo){
         totalAmount += bankInfo[thing]
 }
 console.log(totalAmount)
+
+////////////////////////////////////////////////////
