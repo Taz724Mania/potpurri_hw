@@ -51,6 +51,8 @@ const bankInfo = {
     creditCard: -3000,
 }
 
-const bankAccountSummary = () => {
-
+let totalAmount = 0
+for (const thing in bankInfo){
+        totalAmount += bankInfo[thing]
 }
+console.log(totalAmount)
